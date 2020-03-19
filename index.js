@@ -106,10 +106,13 @@ Baby.prototype.play = function(){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2.
-  3.
-  4.
+  1. Global bindng - the value of 'this' is the console object
+  2. Implicit binding - when using a method on the object, the value of 'this'
+    will be what's left of the dot
+  3. New binding - when a constructor function is used, the value of `this` will
+    be the content of the new keyword
+  4. Explicit binding - when .bind(), .call(), .apply(), the value of `this`
+    is dependent on .bind(), .call(), and .apply().
 */
 
 
